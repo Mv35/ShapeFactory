@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC44065428A7DE0B00C0534B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC44065028A7DE0A00C0534B /* Utils.swift */; };
+		AC44065528A7DE0B00C0534B /* ShapeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC44065128A7DE0A00C0534B /* ShapeFactory.swift */; };
+		AC44065628A7DE0B00C0534B /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC44065228A7DE0A00C0534B /* Shape.swift */; };
+		AC44065728A7DE0B00C0534B /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC44065328A7DE0A00C0534B /* ShapeView.swift */; };
 		ACFAB98228A3F0AB00442909 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFAB98128A3F0AB00442909 /* AppDelegate.swift */; };
 		ACFAB98628A3F0AB00442909 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFAB98528A3F0AB00442909 /* ViewController.swift */; };
 		ACFAB98928A3F0AB00442909 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACFAB98728A3F0AB00442909 /* Main.storyboard */; };
@@ -15,10 +19,6 @@
 		ACFAB99928A3F0AF00442909 /* ShapeFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFAB99828A3F0AF00442909 /* ShapeFactoryTests.swift */; };
 		ACFAB9A328A3F0AF00442909 /* ShapeFactoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFAB9A228A3F0AF00442909 /* ShapeFactoryUITests.swift */; };
 		ACFAB9A528A3F0AF00442909 /* ShapeFactoryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFAB9A428A3F0AF00442909 /* ShapeFactoryUITestsLaunchTests.swift */; };
-		ACFAB9B628A3F0EC00442909 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFAB9B228A3F0EB00442909 /* ShapeView.swift */; };
-		ACFAB9B728A3F0EC00442909 /* ShapeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFAB9B328A3F0EB00442909 /* ShapeFactory.swift */; };
-		ACFAB9B828A3F0EC00442909 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFAB9B428A3F0EC00442909 /* Utils.swift */; };
-		ACFAB9B928A3F0EC00442909 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFAB9B528A3F0EC00442909 /* Shape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC44065028A7DE0A00C0534B /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		AC44065128A7DE0A00C0534B /* ShapeFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeFactory.swift; sourceTree = "<group>"; };
+		AC44065228A7DE0A00C0534B /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		AC44065328A7DE0A00C0534B /* ShapeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
 		ACFAB97E28A3F0AB00442909 /* ShapeFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShapeFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACFAB98128A3F0AB00442909 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACFAB98528A3F0AB00442909 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,10 +56,6 @@
 		ACFAB9A228A3F0AF00442909 /* ShapeFactoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeFactoryUITests.swift; sourceTree = "<group>"; };
 		ACFAB9A428A3F0AF00442909 /* ShapeFactoryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeFactoryUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		ACFAB9B128A3F0B800442909 /* ShapeFactory.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShapeFactory.entitlements; sourceTree = "<group>"; };
-		ACFAB9B228A3F0EB00442909 /* ShapeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShapeView.swift; path = "../../Desktop/Swift-Factory-Design-Pattern/Swift Factory Design Pattern/ShapeView.swift"; sourceTree = "<group>"; };
-		ACFAB9B328A3F0EB00442909 /* ShapeFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShapeFactory.swift; path = "../../Desktop/Swift-Factory-Design-Pattern/Swift Factory Design Pattern/ShapeFactory.swift"; sourceTree = "<group>"; };
-		ACFAB9B428A3F0EC00442909 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = "../../Desktop/Swift-Factory-Design-Pattern/Swift Factory Design Pattern/Utils.swift"; sourceTree = "<group>"; };
-		ACFAB9B528A3F0EC00442909 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Shape.swift; path = "../../Desktop/Swift-Factory-Design-Pattern/Swift Factory Design Pattern/Shape.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,10 +106,10 @@
 		ACFAB98028A3F0AB00442909 /* ShapeFactory */ = {
 			isa = PBXGroup;
 			children = (
-				ACFAB9B528A3F0EC00442909 /* Shape.swift */,
-				ACFAB9B328A3F0EB00442909 /* ShapeFactory.swift */,
-				ACFAB9B228A3F0EB00442909 /* ShapeView.swift */,
-				ACFAB9B428A3F0EC00442909 /* Utils.swift */,
+				AC44065228A7DE0A00C0534B /* Shape.swift */,
+				AC44065128A7DE0A00C0534B /* ShapeFactory.swift */,
+				AC44065328A7DE0A00C0534B /* ShapeView.swift */,
+				AC44065028A7DE0A00C0534B /* Utils.swift */,
 				ACFAB9B128A3F0B800442909 /* ShapeFactory.entitlements */,
 				ACFAB98128A3F0AB00442909 /* AppDelegate.swift */,
 				ACFAB98528A3F0AB00442909 /* ViewController.swift */,
@@ -269,12 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC44065728A7DE0B00C0534B /* ShapeView.swift in Sources */,
 				ACFAB98628A3F0AB00442909 /* ViewController.swift in Sources */,
 				ACFAB98228A3F0AB00442909 /* AppDelegate.swift in Sources */,
-				ACFAB9B628A3F0EC00442909 /* ShapeView.swift in Sources */,
-				ACFAB9B928A3F0EC00442909 /* Shape.swift in Sources */,
-				ACFAB9B728A3F0EC00442909 /* ShapeFactory.swift in Sources */,
-				ACFAB9B828A3F0EC00442909 /* Utils.swift in Sources */,
+				AC44065428A7DE0B00C0534B /* Utils.swift in Sources */,
+				AC44065628A7DE0B00C0534B /* Shape.swift in Sources */,
+				AC44065528A7DE0B00C0534B /* ShapeFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
